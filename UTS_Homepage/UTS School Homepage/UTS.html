@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <style type="text/tailwindcss">
+        @layer utilities { .button-primary { @apply bg-primary py-4 px-8 rounded-full text-white; } #navigation nav a { @apply font-raleway; } .text-linearbg { background: linear-gradient(90.01deg, #E18700 35.24%, #FF32AD 66.21%, #0EC5D7 97.18%); -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent; } header{background-image: url(asset/background\ logo.svg)}}
+    </style>
+</head>
+
+<body>
+    <div class="text-white">
+        <header class="bg-header">
+            <section id="navigation" class="flex container mx-auto py-5 gap-[44px] justify-center items-center">
+                <div id="left-side" class="flex gap-10 items-center">
+                    <a href="">
+                        <img src="asset/logo.svg">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="flex gap-[32px] items-center font-Inter font-light">
+                        <li><a href="#">Home</a></li>
+                        <div class="flex item-center gap-x-[4px]">
+                            <li><a href="#">Profil Sekolah</a></li>
+                            <img src="asset/ic_round-navigate-next.png" alt="" class="">
+                        </div>
+                        <div class="flex item-center gap-x-[4px]">
+                            <li><a href="#">Data Akademik</a></li>
+                            <img src="asset/ic_round-navigate-next.png" alt="" class="">
+                        </div>
+                        <div class="flex item-center gap-x-[4px]">
+                            <li><a href="#">Artikel</a></li>
+                            <img src="asset/ic_round-navigate-next.png" alt="" class="">
+                        </div>
+                        <div class="flex item-center gap-x-[4px]">
+                            <li><a href="#">Fasilitas</a></li>
+                            <img src="asset/ic_round-navigate-next.png" alt="" class="">
+                        </div>
+                        <div class="flex item-center gap-x-[4px]">
+                            <li><a href="#">Gallery</a></li>
+                            <img src="asset/ic_round-navigate-next.png" alt="" class="">
+                        </div>
+                        <div class="flex item-center gap-x-[4px]">
+                            <li><a href="#">E-Learning</a></li>
+                            <img src="asset/ic_round-navigate-next.png" alt="" class="">
+                        </div>
+
+                    </ul>
+                </nav>
+                <div id="right-side" class="flex items-center gap-x-[20px]">
+                    <a href="#" class="button-primary">Hubungi Kami</a>
+                </div>
+            </section>
+            <section id="hero" class="mt-[130px]">
+                <div class="max-w-[1007px] mx-auto justify-left">
+                    <h1 class="text-[64px] font-Inter font-bold ">Buku - Buku yang dapat membuat anda Termotivasi </h1>
+                    <p class="text-[14px] text-Inter font-light my-[24px]">September 6, 2022</p>
+                    <p class="text-[14px] text-Inter font-light my-[24px]">Lörem ipsum mikrolös dongen infodemi. Terapument anteliga deforen laskapet målagisk. Av euror. Karriärcoach pyjuskap andropatologi. </p>
+                    <div class="flex my-[32px]">
+                        <a href="#" class="button-primary">Read More</a>
+                    </div>
+            </section>
+            <div class="flex justify-center">
+                <span class="dot" onclick=""></span>
+                <span class="dot" onclick=""></span>
+                <span class="dot" onclick=""></span>
+            </div>
+        </header>
+        <section>
+            <div class="flex justify-center mt-[110px] gap-[24px] mb-[110px]">
+                <div class="py-[24px] w-[364px]">
+                    <img src="asset/school.svg" alt="" class="m-auto">
+                    <h1 class="text-black font-Inter text-[24px] font-semibold text-center mt-[24px]">Identitas Sekolah</h1>
+                    <p class="text-[#969696] text-center text-[14px] mt-[24px]">Hight School berdiri sejak tahun 1980 dengan nama Hight School 1. Sekolah yang akan membimbing muridnya hingga benar</p>
+                    <a href="#" class="text-[#5E8B7E] font-semibold flex justify-center mt-[16px]">Read More</a>
+                </div>
+                <div class="py-[24px] w-[364px]">
+                    <img src="asset/hat.svg" alt="" class="m-auto">
+                    <h1 class="text-black font-Inter text-[24px] font-semibold text-center mt-[24px]">Visi Misi</h1>
+                    <p class="text-[#969696] text-center text-[14px] mt-[24px]">Hight School berdiri sejak tahun 1980 dengan nama Hight School 1. Sekolah yang akan membimbing muridnya hingga benar</p>
+                    <a href="#" class="text-[#5E8B7E] font-semibold flex justify-center mt-[16px]">Read More</a>
+                </div>
+                <div class="py-[24px] w-[364px]">
+                    <img src="asset/stucture.png" alt="" class="m-auto">
+                    <h1 class="text-black font-Inter text-[24px] font-semibold text-center mt-[24px]">Sturuktur Sekolah</h1>
+                    <p class="text-[#969696] text-center text-[14px] mt-[24px]">Hight School berdiri sejak tahun 1980 dengan nama Hight School 1. Sekolah yang akan membimbing muridnya hingga benar</p>
+                    <a href="#" class="text-[#5E8B7E] font-semibold flex justify-center mt-[16px]">Read More</a>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="bg-[#F7FBFA] h-[394px]">
+            <div>
+                <img src="asset/foto.svg" alt="" class="float-left w-[708px] h-[394px]">
+            </div>
+            <div class="max-w-[1300px] pt-[60px] pl-[748px]">
+                <p class="text-[#2F5D62] text-[14px]">Pembukaan Kepala Sekolah</p>
+                <h1 class="text-black pt-[16px] font-Inter font-bold text-[32px]">Ucapan Kepala Sekolah HIGHT SCHOOL</h1>
+                <p class="text-[#5A5A5A] pt-[24px] text-[14px]">“ Lörem ipsum mikrolös dongen infodemi. Terapument anteliga deforen laskapet målagisk. Av euror. Karriärcoach pyjuskap andropatologi. “</p>
+            </div>
+            <div class="max-w-[1000px] pl-[748px] pt-[24px] text-black">
+                <img src="asset/bpk.svg" alt="" class="float-left mr-[8px]">
+                <p class="font-bold">Bpk. Robert stent</p>
+                <p>Kepala Sekolah</p>
+            </div>
+        </section>
+        <section>
+            <div class="w-[1140px] m-auto pt-[110px]">
+                <h1 class="text-black font-bold text-[32px]">Jurusan (Program Study)</h1>
+                <p class="text-[#5A5A5A] mt-[24px] max-w-[542px]">Terdapat Beberapa Jurusan atau Program Study di SMA PGRI CICURUG yang dapat dipilih sesuai dengan minat Siswa</p>
+                <div id="right-side" class="flex pl-[960px]">
+                    <a href="#" class="button-primary">Akademik Data</a>
+                </div>
+                <div class="flex justify-center pt-[40px] gap-[24px]">
+                    <div class="w-[570px] border rounded-2xl border-solid pt-[24px] pb-[24px]">
+                        <img src="asset/1.svg" alt="" class="m-auto">
+                        <h1 class="text-black font-Inter text-[24px] font-bold text-center mt-[24px]">IPA</h1>
+                        <p class="text-[#969696] text-center text-[14px] mt-[24px]">Jurusan IPS mempelajari tentang hubungan antar manusia dan hubungan manusia dengan lingkungannya, serta berbagai aspek sosial Sekolah yang akan membimbing muridnya hingga benar</p>
+                    </div>
+                    <div class="w-[570px] border rounded-2xl border-solid pt-[24px] pb-[24px]">
+                        <img src="asset/2.svg" alt="" class="m-auto">
+                        <h1 class="text-black font-Inter text-[24px] font-bold text-center mt-[24px]">IPS</h1>
+                        <p class="text-[#969696] text-center text-[14px] mt-[24px]">Selain belajar Ilmu Alam, anak SMA belajar matematika juga. Oleh sebab itu selain disebut dengan jurusan IPA (Ilmu Pengetahuan Alam) jurusan ini punya dua nama lain lagi, yaitu: MIPA , MIA</p>
+                    </div>
+                </div>
+        </section>
+        <section>
+            <div class="w-[1140px] m-auto pt-[110px]">
+                <h1 class="text-black font-bold text-[32px]">Prestasi Siswa - Siswi</h1>
+                <p class="text-[#5A5A5A] mt-[16px] max-w-[542px]">Prestasi dari Siswa - Siswi SMA PGRI CICURUG</p>
+                <div id="right-side" class="flex pl-[950px]">
+                    <a href="#" class="button-primary">See All Prestation</a>
+                </div>
+                <div class="grid grid-col-3 grid-flow-col gap-[24px] justify-center pt-[40px]">
+                    <div class="w-[380px]">
+                        <img src="asset/1.png" alt="">
+                    </div>
+                    <div class="w-[380px]">
+                        <img src="asset/2.png" alt="">
+                    </div>
+                    <div class="w-[380px]">
+                        <img src="asset/3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="w-[1140px] m-auto">
+                <div class="text-center">
+                    <h1 class="text-[32px] text-black font-bold pt-[82px] mx-auto"> Artikel</h1>
+                    <p class="text-[#5A5A5A] mt-[16px] text-[14px]">Kami menyediakan beberapa artikel dari kegiatan - kegiatan pembelajaran maupun <br>lorem ipsum donot saas</p>
+                </div>
+                <div class="grid grid-rows-4 grid-flow-col gap-4 text-black flex justify-center pt-[40px]">
+                    <div class="row-span-4">
+                        <img src="asset/bully.png" alt="">
+                    </div>
+                    <div class=" row-span-2 col-span-2">
+                        <img src="asset/smile.png" alt="" class="float-left">
+                    </div>
+                    <div class="row-span-2 col-span-2 ">
+                        <img src="asset/kayu.png" alt="" class="float-left">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center pt-[40px] pb-[110px]">
+                <a href="#" class="button-primary">See More</a>
+            </div>
+        </section>
+        <section class="bg-[#F7FBFA] m-auto">
+            <div class="text-center pt-[60px]">
+                <h1 class="text-[32px] text-black font-bold mx-auto"> Gallery</h1>
+                <p class="text-[#5A5A5A] mt-[16px] text-[14px]">Lörem ipsum mikrolös dongen infodemi. Terapument anteliga deforen laskapet</p>
+            </div>
+            <div class="flex justify-center gap-[24px] pt-[40px]">
+                <img src="asset/11.png" alt="">
+                <img src="asset/12.png" alt="">
+                <img src="asset/13.png" alt="">
+                <img src="asset/14.png" alt="">
+                <img src="asset/15.png" alt="">
+            </div>
+            <div class="flex justify-center pt-[40px] pb-[60px]">
+                <a href="#" class="button-primary">See More</a>
+            </div>
+        </section>
+</body>
+<footer class="bg-[#0E2123] text-white">
+    <section id="Footer" class="flex container mx-auto py-5 gap-5 justify-center items-center">
+        <div class="flex gap-10 items-center pl-[120px] pr-[120px] pb-[209px]">
+            <div class="pt-[70px]">
+                <img src="asset/logo.svg" alt="">
+                <p class="text-left text-[13px] pt-[40px] text-[#969696]">“ Lörem ipsum mikrolös dongen infodemi. Terapument anteliga deforen laskapet målagisk. Av euror. Karriärcoach pyjuskap andropatologi. “</p>
+                <ul class="flex gap-x-[24px] pt-[40px]">
+                    <li>
+                        <a><img src="asset/fb.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a><img src="asset/twt.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a><img src="asset/link.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a><img src="asset/ig.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="pl-[24px] pt-[64px]">
+                <h1 class=" text-[16px] font-bold">Jelajah</h1>
+                <ul class="pt-[24px] text-[14px] leading-[30px] w-[114px]">
+                    <li><a href=""> Identitas Sekolah</a></li>
+                    <li><a href=""> Berita</a></li>
+                    <li><a href=""> Gallery</a></li>
+                    <li><a href=""> Fasilitas</a></li>
+                    <li><a href=""> Kontak Kami</a></li>
+                </ul>
+            </div>
+            <div class="pl-[40px] pt-[20px]">
+                <h1 class=" text-[16px] font-bold text-left">Data Akademik</h1>
+                <ul class="pt-[24px] text-[14px] w-[268px] leading-[24px]">
+                    <li><a href=""> Tenaga Pendidik</a></li>
+                    <li><a href=""> Tenaga Kependidikan</a></li>
+                    <li><a href=""> Daftar Siswa</a></li>
+                    <li><a href=""> Absensi Siswa</a></li>
+                    <li><a href=""> Organisasi Sekolah</a></li>
+                    <li><a href=""> Jadwal Pelajaran</a></li>
+                    <li><a href=""> Jadwal Ujian</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="font-bold text-[16px] text-left pt-[40px]">Lokasi</h1>
+                <ul class="pt-[24px] text-[14px]">
+                    <li class="w-[200px] leading-[16px] pt-[24px]">
+                        <button>
+                        <img src="asset/lok.png" alt=" ">
+                    </button>
+                        <a href="">h3891 Ranchview Dr. Richardson, California 62639</a>
+                    </li>
+                    <li class="w-[173px] leading-[16px] pt-[16px]">
+                        <button>
+                        <img src="asset/mail.png" alt=" ">
+                    </button>
+                        <a href="">0266-6532078 WA:0857-5940-2332</a>
+                    </li>
+
+            </div>
+        </div>
+    </section>
+    <div class="item-bottom text-left text-[#969696] pl-[120px]">
+        <p>© Hight School. All right Reserved. Website By mangcoding</p>
+    </div>
+</footer>
+
+</html>
